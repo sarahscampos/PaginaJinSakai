@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    color: black;
+}
+
+.apresentacao {
+    margin: 10% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo {
+    width: 788px; 
+    display: flex;
+    flex-direction: column;   
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-family: 'Rubik', sans-serif;
+    font-size: 36px;
+
+}
+
+.apresentacao__conteudo__texto {
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+}
+
+.separador {
+    display: flex;
+    justify-content: center;
+}
+
+.apresentacao__conteudo__link {
+   
+    text-align: center;
+    background-color: #E61D28;
+    font-size: 24px;
+    font-family: 'Rubik', sans-serif;
+
+    border-radius: 16px;
+    width: 238px;
+    padding: 15px 0;
+    text-decoration: none;
+    color: #FFFFFF;
+   
+
+    
+}
